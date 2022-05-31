@@ -1,0 +1,58 @@
+.home .cover {
+	display: flex;
+	align-items: center;
+}
+
+.home .coverImg {
+	position: absolute;
+	object-fit: cover;
+}
+
+.home .cover .header {
+	z-index: 9;
+}
+
+.home .cover .title {
+	color: rgb(0, 0, 0);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+
+}
+
+
+
+.home .contents {
+	width: 100%;
+}
+
+.home .content {
+	position: relative;
+}
+
+.home .content1 {
+	z-index: -99;
+	background-color: #fff;
+}
+
+.home .content2 {
+	background-color: #ddd;
+}
+
+.home .content3 {
+	background-color: #fff;
+}
+
+.home .content .title {
+	font-family: 'Noto Sans KR Regular';
+	font-size: 30px;
+	font-weight: bold;
+	z-index: 99;
+}
+
+.home .content .subtitle {
+	font-family: 'Noto Sans KR Regular';
+	font-size: 15px;
+	font-weight: normal;
+	margin: 30px;
+	z-index: 99;
+}

@@ -1,0 +1,63 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.HomeBackground-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.HomeBackground-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 130px;
+  font-family: "NotoSans";
+}
+
+.HomeBackground-container > p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "NotoSans";
+}
+
+.HomeBackground-container > p2 {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "NotoSans";
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .HomeBackground-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+    font-family: "NotoSans";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .HomeBackground-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+    font-family: "NotoSans";
+  }
+
+  .HomeBackground-container > p {
+    font-size: 30px;
+    font-family: "NotoSans";
+  }
+
+}
